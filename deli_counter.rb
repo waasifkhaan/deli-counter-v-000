@@ -19,5 +19,5 @@ def now_serving
   if katz_deli = ""
     "The line is currently empty."
   else  
-    puts "#{katz_deli.unshift}"
+    "Currently serving #{katz_deli.unshift}"
 end
