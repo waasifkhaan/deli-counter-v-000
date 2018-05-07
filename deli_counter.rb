@@ -7,5 +7,5 @@ def line
 end
 def take_a_number(array,name)
   katz_deli << name
-  puts "Mr. #{name} and you number in line is #{katz_deli.length}"
+  puts " #{name} and you number in line is #{katz_deli.length+1}"
   
