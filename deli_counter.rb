@@ -16,5 +16,8 @@ def take_a_number(katz_deli,name)
                   end
   end
 def now_serving 
+  if katz_deli = ""
+    "The line is currently empty."
+  else  
     puts "#{katz_deli.unshift}"
 end
