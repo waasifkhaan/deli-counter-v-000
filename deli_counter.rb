@@ -16,4 +16,4 @@ def take_a_number(katz_deli,name)
                   end
   end
 def now_serving 
-  puts "#{katz_deli.unshift}"
+  puts "#{katz_deli[]"
