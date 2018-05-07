@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 def take_a_number(katz_deli,name)
   katz_deli << name
-  "WElcome #[name}. You ar number #{katz_deli.length} in line."
+  "Welcome #[name}. You are number #{katz_deli.length} in line."
   end
 def now_serving 
   if katz_deli = ""
