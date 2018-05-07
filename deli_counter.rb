@@ -5,10 +5,9 @@ def line(katz_deli)
     "The line is currently empty."
   else
     katz_deli.map.with_index do |cus,index|
-      "The line is currently "
-                    
-                  end
-    end
+      "The line is currently #{index + 1}. #{cus}"
+        end
+  end
 end
 def take_a_number(katz_deli,name)
   katz_deli << name
