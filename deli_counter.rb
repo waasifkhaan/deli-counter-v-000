@@ -1,14 +1,14 @@
-# Write your code here.
-# katz_deli = []
-# def line(katz_deli) 
-#   if katz_deli = ""
-#     "The line is currently empty."
-#   else
-#     "The line is currently:#{katz_deli.map.with_index do |cus,index|
-#                     katz_deli[index+1]. cus}"
-#                   end
-#     end
-# end
+Write your code here.
+katz_deli = []
+def line(katz_deli) 
+  if katz_deli = ""
+    "The line is currently empty."
+  else
+    "The line is currently:#{katz_deli.map.with_index do |cus,index|
+                    katz_deli[index+1]. cus}"
+                  end
+    end
+end
 def take_a_number(katz_deli,name)
   katz_deli << name
   "Welcome #{name}. You are number #{katz_deli.length} in line."
