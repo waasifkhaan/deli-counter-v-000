@@ -18,4 +18,5 @@ def now_serving
     "The line is currently empty."
   else  
     "Currently serving #{katz_deli.unshift}"
+  end
 end
