@@ -6,5 +6,6 @@ def line
   end
 end
 def take_a_number(array,name)
-  puts "#{name}"
+  katz_deli << name
+  puts "Mr. #{name} and you number in line is #{katz_deli.length}"
   
