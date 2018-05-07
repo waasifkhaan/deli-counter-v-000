@@ -4,8 +4,8 @@ def line(katz_deli)
   if katz_deli = ""
     "The line is currently empty."
   else
-    "The line is currently:#{katz_deli.map.with_index do |cus,index|
-                    katz_deli[index+1]. cus}"
+    katz_deli.map.with_index do |cus,index|
+                    
                   end
     end
 end
