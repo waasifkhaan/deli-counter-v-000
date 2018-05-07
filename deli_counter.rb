@@ -11,9 +11,7 @@ def line(katz_deli)
 end
 def take_a_number(katz_deli,name)
   katz_deli << name
-  "The line is currently:#{katz_deli.map.with_index do |cus,index|
-                    katz_deli[index+1]. cus}"
-                  end
+  "WElcome #[name}. You ar number #{katz_deli.length} in line."
   end
 def now_serving 
   if katz_deli = ""
