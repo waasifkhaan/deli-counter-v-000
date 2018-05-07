@@ -3,10 +3,10 @@ katz_deli = []
 def line(katz_deli) 
   if katz_deli == ""
     "The line is empty"
-  else
-    katz_deli.map_with_index do |cus,index|
-      puts "The line is currently #{index + 1}. #{cus}"
-        end
+  # else
+  #   katz_deli.map_with_index do |cus,index|
+  #     puts "The line is currently #{index + 1}. #{cus}"
+  #       end
   end
 end
 def take_a_number(katz_deli,name)
